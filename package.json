@@ -41,7 +41,9 @@
     "react-native-snap-carousel": "^3.9.1",
     "react-native-swiper": "^1.6.0",
     "react-native-vector-icons": "^10.2.0",
-    "react-native-web": "~0.19.10"
+    "react-native-virtualized-view": "^1.0.0",
+    "react-native-web": "~0.19.10",
+    "expo-image": "~1.13.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
