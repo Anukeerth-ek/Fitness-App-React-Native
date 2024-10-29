@@ -6,10 +6,10 @@ export default function ImageSlider() {
      return (
           <View className='flex-row justify-between gap-2'>
                {sliderImage.map((item, index) => (
-                    <View key={index} className=" items-center ">
+                    <View key={index} className=" items-center">
                          <Image
                               source={item}
-                              className="w-36 h-40  rounded-md" resizeMode="cover"
+                              className=" w-64 h-40 rounded-[20px]" resizeMode="cover"
                          />
                     </View>
                ))}
